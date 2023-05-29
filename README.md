@@ -1,4 +1,4 @@
-# Aplicativo dockerizado para crear dns dinamicos en tus servidores
+# Aplicativo dockerizado para implementar dns dinamicos en tus servidores privados con ip dinámicas.
 ### Este repositorio te permite implementar en tu servidores el uso de los dns dinámicos, usando [duckdns](https://www.duckdns.org/) como proveedor de servicio. De esta manera este código te permitirá extraer la ip pública dinámica que tienes en el momento para actualizar el servicio de tu proveedor. además está preparado para actualizar varios al mismo tiempo
 ## Clonar el repositorio
 ```shell
