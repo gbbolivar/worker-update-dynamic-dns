@@ -9,7 +9,14 @@ git clone https://github.com/gbbolivar/worker-update-dynamic-dns.git
 cd worker-update-dynamic-dns
 ```
 ## Agregar las las configuraciones de tus servicios
+```shell
 cp code/config/config.example.json code/config/config.json
+```
+### Luego debes editar el siguiente archivo
+```shell
+nano code/config/config.json
+```
+### La estructura del archivo siguiente:
 ```json
 {
     "dns": [
