@@ -14,5 +14,5 @@ class SendDataUpdateDnsService:
         for item in self.dnsService:
             urlUpdateDns = item['url'].replace('{IP-PUBLIC}', ip)
             clientHttp = requests.get(urlUpdateDns)
-            print(urlUpdateDnsclientHttp.content)
+            print(urlUpdateDns, clientHttp.content)
         return ip
