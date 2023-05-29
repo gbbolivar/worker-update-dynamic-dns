@@ -1,0 +1,8 @@
+{
+    "dns": [
+        {
+            "url": "https://www.duckdns.org/update?domains={DOMAIN}&token={TOKEN}&ip={IP-PUBLIC}"
+        }
+    ],
+    "checkIp": "http://checkip.dyndns.org"
+}

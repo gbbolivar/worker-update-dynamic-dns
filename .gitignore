@@ -1,0 +1,5 @@
+code/__pycache__
+code/service/__pycache__
+code/utility/__pycache__
+config/config.json
+.idea/*

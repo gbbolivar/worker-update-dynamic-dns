@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  python-worker-update-dynamic-dns:
+    build: .
+    #command: python3 test1.py
+    command: tail -F anything
+    container_name: python-worker-update-dynamic-dns
+    hostname: python-worker-update-dynamic-dns
+    volumes:
+      - ./code:/usr/src/app
+      - ./config:/config
+    networks:
+      - worker-update-dns-network
+
+networks:
+    worker-update-dns-network:
+        driver: bridge
